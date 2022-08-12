@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore", "Enti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphQL", "GraphQL", "{30C1AA7F-62D2-4DFD-9FEF-6A2DA2F4BB62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ADO.NET", "Sample.ADO.NET\Sample.ADO.NET.csproj", "{C2C7D9E9-BC90-4D6F-8EB1-C20C5E6D8EBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 	EndGlobalSection
@@ -21,5 +23,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B82254D8-6A94-4A54-9B95-80CBF8214385}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C7D9E9-BC90-4D6F-8EB1-C20C5E6D8EBE} = {693325F5-311A-4DD6-8804-0EF9B95A9B4F}
 	EndGlobalSection
 EndGlobal
